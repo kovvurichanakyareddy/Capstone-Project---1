@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Ubuntu:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+}
+input[type="button"]:hover {
+    cursor: pointer;
+}
+#inga {
+    height: 8%;
+    /* background-color: aqua; */
+}
+#firstone {
+    background-image: linear-gradient(to right, #aed3f6, white);
+    height: 950px;
+    width: 100%;
+    position: relative;
+}
+#intropic {
+    position: absolute;
+    height: 62%;
+    left: 10%;
+}
+#contentfir {
+    /* background-color: aqua; */
+    height:67%;
+    width: 30%;
+    position: absolute;
+    top: 8%;
+    left: 60%
+}
+#medcenterhealth {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#highestquality {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    color: #3F96E8;
+}
+#tolearnmore {
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+}
+#contactus {
+    height: 60px;
+    width: 170px;
+    border-radius: 5px;
+    will-change: transform, opacity;
+    background-image: linear-gradient(to right, #e5f2fd,rgb(232, 242, 255));
+    color: #3F96E8;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #3F96E8;
+}
+#contactus:hover {
+    background-image: linear-gradient(#3F96E8,#3F96E8);
+    cursor: pointer;
+    color: white;
+    border: 0;
+}
+#firtrust {
+    background-color: #3F96E8;
+    height: 320px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 62%;
+    left: 10%;
+}
+#firtrust1 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+#firtrust2 {
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+#virste {
+    font-size: 68px;
+    position: absolute;
+    color: #3F96E8;
+    height: 100px;
+    left: 21.5%;
+    top: 21%;
+}
+#virstediv {
+    border-radius: 50%;
+    position: relative;
+    margin-left: 15px;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+}
+#meca {
+    height: 80%;
+    width: 60%;    position: absolute;
+    bottom: 6%;
+    left: 26%;
+}
+#mecah {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+#mecac {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#secondone {
+    height: 1000px;
+    width: 100%;
+    background-color: #ffffff;
+}
+#sechead {
+    height: 18%;
+    text-align: center;
+}
+#medserblu {
+    font-size: 60px;
+    color: #3F96E8;
+    font-family: 'Roboto', sans-serif;
+}
+#secbody {
+    height: 74%;
+    width: 100%;
+}
+#secb1 {
+    /* background-color: #3F96E8; */
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+#secb2 {
+    /* background-color: #aed3f6; */
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.sb1 {
+    /* background-color: lightcoral; */
+    height: 45%;
+    width: 80%;
+    margin-left: 20%;
+}
+.sb2 {
+    /* background-color:bisque; */
+    height: 45%;
+    width: 80%;
+}
+.hpcl {
+    /* background-color: #aed3f6; */
+    height: 100%;
+    position: relative;
+}
+.secimg {
+    height: 95%;
+    width: 45%;
+    float: left;
+}
+.secimgside {
+    height: 95%;
+    width: 55%;
+    float: left;
+}
+#secsubhead {
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+#secsubneck {
+    margin-left: 20px;
+    width: 60%;
+    font-size: 16px;
+}
+#seclm {
+    margin-left: 20px;
+    width: fit-content;
+    padding: 5px;
+    border-style: none none solid;
+    /* border: 5px solid; */
+}
+#seclm:hover {
+    color: #3F96E8;
+    border-style: none none solid #3F96E8;
+    cursor: pointer;
+}
+#thirdone {
+    height: 1500px;
+    width: 100%;
+    position: relative;
+}
+#thi1 {
+    background-color: rgb(231, 231, 231);
+    height: 25%;
+    width: 100%;
+    position: absolute;
+}
+#thi2 {
+    background-color: #3F96E8;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 375px;
+}
+#thi3 {
+    /* background-color: #ff1717; */
+    height: 15%;
+    width: 100%;
+    top: 1275px;
+    position: absolute;
+}
+.thiimg {
+    height: 560px;
+    width: 1000px;
+    position: absolute;
+    top: 3%;
+    left: 17%;
+}
+#howwework {
+    position: absolute;
+    /* background-color: black; */
+    color: white;
+    height: 500px;
+    width: 100%;
+    top: 640px;
+}
+#hwwh {
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    height: 100px;
+    /* background-color: green; */
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+}
+#hwwn {
+    padding: 10px;
+    height: 72%;
+    /* background-color: #aed3f6; */
+}
+.hwwns1 {
+    /* background-color: black; */
+    width: 25%;
+    height: 60%;
+    font-size: 16px;
+    position: absolute;
+    left: 18%;
+    padding: 10px;
+}
+.hwwns2 {
+    /* background-color: gold; */
+    width: 40%;
+    height: 60%;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+}
+.contactusblu {
+    height: 80px;
+    width: 220px;
+    color: white;
+    border: 2px solid white;
+    background-color: #3F96E8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.contactusblu:hover {
+    background-color: #ffffff;
+    color: #3F96E8;
+    font-weight: bolder;
+}
+#abcd {
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    top: 1050px;
+    left: 10%;
+}
+#abcds {
+    /* background-color: #aed3f6; */
+    height: 100%;
+    width: 31.62%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+#abc {
+    font-size: 48px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bolder;
+    color: #3F96E8;
+}
+#thish {
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: #3F96E8;
+}
+#thicoa {
+    width: 70%;
+    margin-left: 15%;
+}
+#thicob {
+    width: 70%;
+    margin-left: 15%;
+}
+#thicoc {
+    width: 70%;
+    margin-left: 15%;
+}
+#thilm {
+    text-decoration: underline;
+    font-weight: bold;
+}
+#thilm:hover {
+    color: #3F96E8;
+    cursor: pointer;
+}
+#fourthone {
+    /* background-color: #aed3f6; */
+    height: 500px;
+    width: 100%;
+}
+#foursub {
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.fourimg {
+    height: 500px;
+    float: right;
+}
+#foursub1 {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    /* background-color: aquamarine; */
+    width: 65%;
+}
+#hcs {
+    font-size: 36px;
+    font-family: 'Oswald',sans-serif;
+}
+#scc {
+    font-size: 20px;
+}
+#fourbtn {
+    height: 70px;
+    width: 190px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: white;
+    color: #3F96E8;
+    border: 2px solid #3F96E8;
+}
+#fourbtn:hover {
+    color: #ffffff;
+    background-color: #3F96E8;
+}
+#fifthone {
+    background-image: linear-gradient(to right, #aed3f6, #eaf4fd);
+    height: 600px;
+    width: 100%;
+}
+#fif1 {
+    height: 21%;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto',sans-serif;
+    color: #3F96E8;
+    font-weight: bold;
+}
+#fif2 {
+    height: 51%;
+    /* background-color: aqua; */
+}
+#fif2sub {
+    height: 100%;
+    width: 70%;
+    margin-left: 16%;
+    /* background-color: lightcoral; */
+}
+#fifap {
+    height: 95%;
+    width: 33.33%;
+    float: left;
+    /* background-color: aquamarine; */
+}
+#fifapp {
+    width: 95%;
+    font-size: 20px;
+
+}
+#fif3 {
+    height: 20%;
+    width: 100%;
+    /* background-color: brown; */
+    align-items: center;
+}
+#fifbtn {
+    height: 80px;
+    width: 200px;
+    background-image: linear-gradient(to right, #cde5fc, #ddefff);
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 40%;
+    font-weight: bold;
+    color: #3F96E8;
+    border: 1px solid #3F96E8;
+}
+#fifbtn:hover {
+    background-image: none;
+    background-color: #3F96E8;
+    color: #ffffff;
+}
+#sixthone {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    /* position: relative; */
+}
+#sixhead {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: #3F96E8;
+}
+#sixbody {
+    /* background-color: lightcyan; */
+    height: 75%;
+    position: relative;
+}
+#sixblue {
+    background-color: #3F96E8;
+    height: 50%;
+    position: relative;
+    top: 25%;
+}
+#team1 {
+    text-align: center;
+    position: absolute;
+    background-color: rgb(236, 236, 236);
+    height: 90%;
+    top: 5%;
+    left: 13%;
+    width: 22%;
+}
+#team2 {
+    text-align: center;
+    position: absolute;
+    background-color: rgb(236, 236, 236);
+    height: 90%;
+    top: 5%;
+    left: 38%;
+    width: 22%;
+}
+#team3 {
+    text-align: center;
+    position: absolute;
+    background-color: rgb(236, 236, 236);
+    height: 90%;
+    top: 5%;
+    left: 63%;
+    width: 22%;
+}
+#mtti {
+    height: 150px;
+    border-radius: 75px;
+    /* margin-left: 25%; */
+}
+#drname {
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+#drrole {
+    letter-spacing: 3px;
+}
+#drtxt {
+    width: 90%;
+    margin-left: 5%;
+}
+#seventhone {
+    background-image: linear-gradient(to right, #aed3f6, #eaf4fd);
+    height: 800px;
+    width: 100%;
+}
+#rwocs {
+    text-align: center;
+    height: 10%;
+    /* background-color: #aed3f6; */
+}
+#rwocsp {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #3F96E8;
+}
+#reviewsmain {
+    /* background-color: rgb(97, 97, 97); */
+    height: 75%;
+}
+.rmh {
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.rmh1s {
+    background-color: white;
+    height: 45%;
+    width: 80%;
+    margin-left: 19%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.rmh2s {
+    background-color: white;
+    height: 45%;
+    width: 80%;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#rvlo {
+    height: 92%;
+    width: 100%;
+}
+#rvlo1 {
+    height: 100%;
+    /* background-color: pink; */
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+#rvlo2 {
+    height: 100%;
+    /* background-color: lavender; */
+    width: 80%;
+    float: left;
+}
+#rvlo2p {
+    width: 90%;
+}
+#revname {
+    font-size: 24px;
+    font-weight: bold;
+}
+#revpics {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border: 10px solid silver;
+}
+#eigthone {
+    background-color: grey;
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+#eig1 {
+    height: 50%;
+    width: 100%;
+    background-image: url('../Images/team-doctors-standing-together-hospital-premises.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+#eig2 {
+    height: 50%;
+    width: 100%;
+    top:50%;
+    background-color: rgb(215, 215, 215);
+    position: absolute;
+}
+#eigformdiv {
+    height: 55%;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 12.5%;
+
+}
+#cuhead {
+    text-align: center;
+}
+#cuheadp {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    color: #3F96E8;
+}
+#cuheadc {
+    width: 40%;
+    margin-left: 30%;
+}
+#formdiv {
+    height: 55%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+table {
+    width: 100%;
+}
+#cuform1 {
+    height: 50px;
+    width: 325px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(229, 229, 229);
+    padding-left: 10px;
+    font-size: 18px;
+}
+#cuform2 {
+    height: 130px;
+    width: 1050px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 10px;
+    font-size: 18px;
+    background-color: rgb(229, 229, 229);
+}
+#cuformbtn {
+    width: 1080px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #3F96E8;
+    border: 0;
+    border-radius: 5px;
+}
+#cuformbtn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+#footerdiv {
+    color: white;
+    height: 200px;
+    background-color: rgb(84, 84, 84);
+    text-align: center;
+}
+.alinkf,.alinkf:visited {
+    color: skyblue;
+}
+#headerdiv {
+    background-color: white;
+    height: 70px;
+    position: relative;
+}
+#headerlogo {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+}
+#menubardiv {
+    position: absolute;
+    top: 26%;
+    left: 90%;
+}
+#menubara,#menubara:visited {
+    color: black;
+    text-decoration: none;
+}
+#menubar{
+    font-size: 34px;
+}
