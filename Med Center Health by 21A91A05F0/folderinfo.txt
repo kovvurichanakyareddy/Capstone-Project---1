@@ -1,1 +1,0 @@
-this one contains html index file, css and images folders
